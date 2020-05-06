@@ -20,21 +20,21 @@ The classes its trying to predict are the following: (0 = neutral, 1 = calm, 2 =
 
 **Model summary**
 
-![Link to loss](https://github.com/rajanpandey/Speech-Emotion-Analyzer/blob/Spemaster/gitmedia/modelSummary.png) 
+![Link to loss](https://github.com/rajanpandey/Speech-Emotion-Analyzer/blob/master/gitmedia/modelSummary.png) 
 
 **Loss and accuracy plots**
 
-![Link to loss](https://github.com/rajanpandey/Speech-Emotion-Analyzer/blob/Spemaster/gitmedia/loss.png) 
+![Link to loss](https://github.com/rajanpandey/Speech-Emotion-Analyzer/blob/master/gitmedia/loss.png) 
 
-![Link to accuracy](https://github.com/rajanpandey/Speech-Emotion-Analyzer/blob/Spemaster/gitmedia/accuracy.png)
+![Link to accuracy](https://github.com/rajanpandey/Speech-Emotion-Analyzer/blob/master/gitmedia/accuracy.png)
 
 **Classification report**
 
-![Link do classification report](https://github.com/rajanpandey/Speech-Emotion-Analyzer/blob/Spemaster/gitmedia/classificationReportUpdated.png)
+![Link do classification report](https://github.com/rajanpandey/Speech-Emotion-Analyzer/blob/master/gitmedia/classificationReportUpdated.png)
 
 **Confusion matrix**
 
-![Link do classification report](https://github.com/rajanpandey/Speech-Emotion-Analyzer/blob/Spemaster/gitmedia/confusionMatrix.png)
+![Link do classification report](https://github.com/rajanpandey/Speech-Emotion-Analyzer/blob/master/gitmedia/confusionMatrix.png)
 
 # How to run the project
 
