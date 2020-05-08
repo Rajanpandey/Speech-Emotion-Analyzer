@@ -7,7 +7,6 @@
 
 # Generated files
 .idea/**/contentModel.xml
-
 # Virtual environment
 venv/
 .venv
