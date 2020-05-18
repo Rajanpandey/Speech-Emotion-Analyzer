@@ -13,19 +13,22 @@
   <script type="text/javascript" src="{% static 'javascript/javascript.js' %}"></script>
 </head>
     <body style="background-color:white">
+        <center>
+          <img src="https://cdn-images-1.medium.com/freeze/max/1000/0*tqQ-x7QM2zKhJB9F.jpg?q=20">
+        </center>
         <div class="jumbotron text-center" id="myJumbotron" style="background-color:white">
-            <h2><a href="/index/">Deep Learning to predict human emotions.</a></h2>
+            <h2><a href="/index/">Speech Emotion Recognition from Audio</a></h2>
         </div>
         <div class="container" id="Container1">
           <div class="row">
             <div class="col-sm-4 text-center" id="FileUpload">
-              <a href="{% url 'upload_file' %}" class="btn btn-primary">Upload your audio file</a>
+              <a href="{% url 'upload_file' %}" class="btn btn-success">Upload an audio file to the server</a>
             </div>
             <div class="col-sm-4 text-center" id="FileDelete">
-              <a href="{% url 'file_delete' %}" class="btn btn-primary">Delete a file from the server</a>
+              <a href="{% url 'file_delete' %}" class="btn btn-danger">Delete an audio file from the server</a>
             </div>
             <div class="col-sm-4 text-center" id="makePredictions">
-              <a href="{% url 'file_select' %}" class="btn btn-primary">Make your prediction</a>
+              <a href="{% url 'file_select' %}" class="btn btn-primary">Predict emotion from an audio file</a>
             </div>
           </div>
         </div>

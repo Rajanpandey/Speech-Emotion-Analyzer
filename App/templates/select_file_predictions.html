@@ -4,8 +4,7 @@
     <form action="/App/predict/" method="post" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form.as_p }}
-        <h5>Please select one file at a time from the list of server files below.</h5>
-        <h5>Clicking on the filename you can listen to the audio file.</h5>
+        <h5>Select one audio file and click on predict</h5>
         {% for myfile in filename %}
           <input type="checkbox" name="file_name" value="{{ myfile }}">
             <label>
@@ -14,6 +13,6 @@
             <br>
         {% endfor %}
         <br>
-        <button type="submit" class="btn btn-primary">Predict</button>
+        <button type="submit" class="btn btn-primary">Predict Emotion</button>
     </form>
 {% endblock %}
