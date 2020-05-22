@@ -2,7 +2,7 @@
 
 Deep learning project to identify emotions from audio clips. The models folder contains the trained model and the jupyter notebook. Django framework is used to create a web interface to interact with the model.
 
-Dataset:
+# Dataset
 
 The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) dataset: https://zenodo.org/record/1188976
 
@@ -77,15 +77,3 @@ ALTER USER <your_name> CREATEDB;
 **How to run the tests**
 
 ```python manage.py test```
-
-# About the RAVDESS dataset
-
-**Download**
-
-The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) can be downloaded free of charge at https://zenodo.org/record/1188976.
-
-**Construction and Validation**
-
-Construction and validation of the RAVDESS is described in our paper: Livingstone SR, Russo FA (2018) The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS): A dynamic, multimodal set of facial and vocal expressions in North American English. PLoS ONE 13(5): e0196391. https://doi.org/10.1371/journal.pone.0196391.
-
-The RAVDESS contains 7356 files. Each file was rated 10 times on emotional validity, intensity, and genuineness. Ratings were provided by 247 individuals who were characteristic of untrained adult research participants from North America. A further set of 72 participants provided test-retest data. High levels of emotional validity, interrater reliability, and test-retest intrarater reliability were reported. Validation data is open-access, and can be downloaded along with our paper from PLOS ONE.
