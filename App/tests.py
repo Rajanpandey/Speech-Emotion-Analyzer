@@ -41,7 +41,8 @@ class TestPredict(TestCase):
         """
         Ensure a model exists in the related directory
         """
-        model_name_dir = 'models/Emotion_Voice_Detection_Model.h5'
+        # model_name_dir = 'models/Ravdess_SER_Model.h5'
+        model_name_dir = 'models/Ravdess_And_Tess_SER_Model.h5'
         assert os.path.isfile(model_name_dir)
 
     def testclasstoemotion(self):
