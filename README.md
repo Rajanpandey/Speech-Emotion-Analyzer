@@ -57,14 +57,14 @@ CREATE DATABASE speechemotionanalyzer;
 
 CREATE USER ser WITH PASSWORD '1234';
 
-\c speechemotionanalyzer;
-
 CREATE TABLE App_filemodel (
    id INT PRIMARY KEY NOT NULL,
    file TEXT NOT NULL,
    timestamp DATE NOT NULL,
    path TEXT NOT NULL
 );
+
+\c speechemotionanalyzer;
 
 CREATE SCHEMA speechemotionanalyzer;
 
