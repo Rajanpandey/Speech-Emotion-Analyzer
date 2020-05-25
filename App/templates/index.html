@@ -14,7 +14,7 @@
 </head>
     <body style="background-color:white">
         <center>
-          <img src="https://cdn-images-1.medium.com/freeze/max/1000/0*tqQ-x7QM2zKhJB9F.jpg?q=20">
+          <img id="home_image" src="https://cdn-images-1.medium.com/freeze/max/1000/0*tqQ-x7QM2zKhJB9F.jpg?q=20">
         </center>
         <div class="jumbotron text-center" id="myJumbotron" style="background-color:white">
             <h2><a href="/index/">Speech Emotion Recognition from Audio</a></h2>
@@ -55,3 +55,9 @@
          <br/>
     </body>
 </html>
+
+<script>
+  if (!(window.location.href).includes('index')) {
+    $('#home_image').remove();
+  }
+</script>
