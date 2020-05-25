@@ -49,10 +49,15 @@ The classes we are trying to predict are the following: (0 = neutral, 1 = calm, 
 5. Download and install PostgreSQL
 6. In terminal, run the following commands:
 ```
-psql -U <your_name>
+sudo -i -u postgres
+
+psql -U postgres
+
 CREATE DATABASE speechemotionanalyzer;
 
-CREATE USER <your_name> WITH PASSWORD '<your_pwd>';
+CREATE USER ser WITH PASSWORD '1234';
+
+\c speechemotionanalyzer;
 
 CREATE TABLE App_filemodel (
    id INT PRIMARY KEY NOT NULL,
@@ -61,13 +66,11 @@ CREATE TABLE App_filemodel (
    path TEXT NOT NULL
 );
 
-\c speechemotionanalyzer;
-
 CREATE SCHEMA speechemotionanalyzer;
 
-GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA speechemotionanalyzer TO <your_name>;
+GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA speechemotionanalyzer TO ser;
 
-ALTER USER <your_name> CREATEDB;
+ALTER USER ser CREATEDB;
 ```
 7. In Settings.py, find DATABASES dictionary on line 149 and change USER and PASSWORD according to your Postgres application.
 9. Run `python ./manage.py migrate `

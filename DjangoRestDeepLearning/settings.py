@@ -150,7 +150,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'speechemotionanalyzer',
-        'USER': 'rajan',
+        'USER': 'ser',
         'PASSWORD': '1234',
         'HOST': 'localhost',
         'PORT': '',
