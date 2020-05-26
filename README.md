@@ -72,10 +72,9 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA speechemotionanalyz
 
 ALTER USER ser CREATEDB;
 ```
-7. In Settings.py, find DATABASES dictionary on line 149 and change USER and PASSWORD according to your Postgres application.
-9. Run `python ./manage.py migrate `
-10. Run `python manage.py runserver`
-11. Visit http://127.0.0.1:8000/index/
+7. Run `python ./manage.py migrate `
+8. Run `python manage.py runserver`
+9. Visit http://127.0.0.1:8000/index/
 
 **How to run the tests**
 
