@@ -10,7 +10,7 @@ Toronto emotional speech set (TESS) dataset: https://tspace.library.utoronto.ca/
 
 # How does this work?
 
-For this task, 5332 samples are used from the RAVDESS dataset and TESS dataset combined.
+For this task, 5352 samples are used from the RAVDESS dataset and TESS dataset combined.
 The samples include:
 
 - 1440 speech files and 1012 Song files from **RAVDESS**. This dataset includes recordings of 24 professional actors (12 female, 12 male), vocalizing two lexically-matched statements in a neutral North American accent. Speech includes calm, happy, sad, angry, fearful, surprise, and disgust expressions, and song contains calm, happy, sad, angry, and fearful emotions. Each file was rated 10 times on emotional validity, intensity, and genuineness. Ratings were provided by 247 individuals who were characteristic of untrained adult research participants from North America. A further set of 72 participants provided test-retest data. High levels of emotional validity, interrater reliability, and test-retest intrarater reliability were reported. Validation data is open-access, and can be downloaded along with our paper from [PLoS ONE](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196391).
